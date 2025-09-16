@@ -47,7 +47,7 @@ header nav ul li{
     font-size: 26px;
 }
 
-/*Conteúdo*/
+/*Inicio*/
 section.contp1{
     text-align: center;
 }
@@ -75,6 +75,41 @@ section.contp1 p{
     text-align: center;
 }
 
+/* Ajuda/*/
+    section.aju1{
+        background-color: #3B4CBF;
+        padding: 5vw;
+    }
+    section.aju1 h2{
+        color: white;
+        font-size: 46px;
+    }
+    section.aju1 h3{
+        color: white;
+        font-size:40px ;
+    }
+
+    section.aju1 p{
+        color: white;
+        font-size: 24px;
+        margin: 15px;
+    }
+
+
+
+
+
+
+/* sobre nós */
+section.nos ol h2{
+    color: #565072;
+    font-size: 1.5rem;
+}
+
+section.nos ol li div{
+    display: flex;
+    justify-content: space-between;
+}
 
 
 /* footer */
