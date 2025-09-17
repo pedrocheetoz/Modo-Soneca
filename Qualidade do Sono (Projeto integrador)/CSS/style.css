@@ -8,11 +8,11 @@ html, body{
 }
 
 main {
-    flex: 1;               /* faz o main crescer e empurrar o footer para baixo */
+    flex: 1;               
 }
 
 footer {
-    /* seu estilo atual pode continuar */
+    
     background-color: #1B5A81;
    padding: 2vw 0 5vw 2vw;
 }
@@ -81,7 +81,7 @@ section.contp1 p{
 
 /* Ajuda/*/
     section.aju1{   
-        padding: 5vw;
+        padding: 5vw;   
     }
     section.aju1 h2{
      color: #3B4CBF;
@@ -96,7 +96,13 @@ section.contp1 p{
         color: #3B4CBF;
         font-size: 24px;
         margin: 15px;
+        display: flex;
+        
     }
+section.aju1 div img{
+
+}
+
 
 
 
