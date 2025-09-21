@@ -57,27 +57,7 @@ header nav ul li ul li{
 
 
 /* Ajuda/*/
-    section.aju1{   
-        padding: 5vw;   
-    }
-    section.aju1 h2{
-     color: black;
-        font-size: 50px;
-        text-align: center;
-        margin: 2.5vw;
-    }
-    section.aju1 h3{
-        color: black;
-        font-size:40px ;
-    }
 
-    section.aju1 p{
-        color: #3B4CBF;
-        font-size: 24px;
-        margin: 15px;
-        display: flex;
-        
-    }
 
 
 
