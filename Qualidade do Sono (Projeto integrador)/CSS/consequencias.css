@@ -1,4 +1,3 @@
-
 html, body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: calc(12px + 0.8vw);
@@ -54,6 +53,13 @@ header nav ul li ul li{
     display: none;
 }
 
+
+
+
+
+
+/* Consequencias */
+
 header a {
   background-color: transparent;
   transition: background-color 0.5s ease;
@@ -66,53 +72,36 @@ header a:hover {
   color: #00a7f5; 
 }
 
-/* Habitos saudaveis*/
-section.banner{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 1.5rem;
-
-
-      background-color: rgb(128, 128, 255);
-    color: midnightblue; 
-    font-weight: bold;  
-    margin: 3vw;
-    padding: 3vw;
-    border-radius: 10px;
-}
-section.imagens {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px 0;         
-}
-main section.lista ol li h3 {
-    font-size: 1.5rem;
-    padding: 1vw ;
-    background-color: #f0f9ff;
-}
-main section.lista ol li p {
-    text-align: center;
-    background-color: #def2ff;
-}
-
-
-main .lista ol li a {
-  background-color: transparent;
-  transition: background-color 0.3s ease;
-  padding: 5px;
+.menu .submenu {
+  display: none;
+  position: absolute;
+  background-color: #00a7f5;
+  margin-top: 10px;
+  padding: 0;
+  list-style: none;
   border-radius: 4px;
+  min-width: 150px;
+  z-index: 10;
+}
+.menu:hover .submenu {
+  display: block;
+}
+.menu .submenu li:hover {
+  background-color: midnightblue;
+}
+header nav ul li ul li{
+    display: none;
 }
 
-main .lista ol li a:hover {
-  background-color: #00a7f5; 
-}
 
-/*footer */
+
+
+
+
+
+/* footer */
+
 footer {
     padding: 2vw 0 5vw 2vw;
     background-color: #1B5A81;
 }
-

@@ -38,6 +38,7 @@ header nav h1 a{
     font-size: 1.5rem;  
     font-weight: bold;
     color: black;
+    
 }
 header nav ul{
     display: flex;
@@ -53,7 +54,17 @@ header nav:hover{
 header nav ul li ul li{
     display: none;
 }
+header a {
+  background-color: transparent;
+  transition: background-color 0.5s ease;
+  padding: 5px;
+  border-radius: 4px;
+}
 
+header a:hover {
+  background-color: midnightblue;
+  color: #00a7f5; 
+}
 
 
 /* Ajuda/*/
@@ -65,10 +76,26 @@ header nav ul li ul li{
         font-size: 50px;
         text-align: center;
         margin: 2.5vw;
+    
+    
+        background-color: rgb(128, 128, 255);
+    color: midnightblue; 
+    font-weight: bold;  
+    margin: 3vw;
+    padding: 3vw;
+    border-radius: 10px;
     }
     section.aju1 h3{
         color: black;
         font-size:40px ;
+
+
+          background-color: rgb(128, 128, 255);
+    color: midnightblue; 
+    font-weight: bold;  
+    margin: 3vw;
+    padding: 3vw;
+    border-radius: 10px;
     }
 
     section.aju1 p{
@@ -80,6 +107,29 @@ header nav ul li ul li{
     }
 
 
+    section.aju1 p {
+    background-color:#B8E1FB ;
+    color: rgb(10, 10, 50); 
+    font-weight: bold;  
+    margin: 3vw;
+    padding: 3vw;
+    border-radius: 10px;
+    }
+
+
+    section.aju1 div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    section.aju1 h3{
+     color: black;
+        font-size: 50px;
+        text-align: center;
+        margin: 2.5vw;
+        
+    }
 
 
 

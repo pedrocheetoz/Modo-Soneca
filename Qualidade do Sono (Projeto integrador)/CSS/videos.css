@@ -54,8 +54,48 @@ header nav ul li ul li{
     display: none;
 }
 
+header a {
+  background-color: transparent;
+  transition: background-color 0.5s ease;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+header a:hover {
+  background-color: midnightblue;
+  color: #00a7f5; 
+}
+
+
 
 /* Videos*/
+section.banvd h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+}
+section.banvd h2 {
+  background-color: transparent;
+  transition: background-color 0.5s ease;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+section.banvd h2 {
+  background-color: rgb(128, 128, 255);
+  color: midnightblue; 
+  font-weight: bold;
+  margin: 3vw;
+}
+section.banvd p{
+      display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+
 
 
 
