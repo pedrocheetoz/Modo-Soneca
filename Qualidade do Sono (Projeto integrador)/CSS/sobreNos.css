@@ -82,7 +82,8 @@ main h2{
   color: midnightblue; 
   font-weight: bold;
   margin: 3vw;
-  border-radius: 10px;
+  padding: 10px;
+  border-radius: 5px;
 }
 section.nos ol h2{
     color: #565072;

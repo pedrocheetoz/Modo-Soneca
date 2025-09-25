@@ -67,65 +67,8 @@ header a:hover {
 }
 
 
-/* Ajuda/*/
+/* Ajuda*/
 
-    section.aju1{   
-        padding: 5vw;   
-    }
-    section.aju1 h2{
-     color: black;
-        font-size: 50px;
-        text-align: center;
-        margin: 2.5vw;
-    
-    
-        background-color: rgb(128, 128, 255);
-    color: midnightblue; 
-    font-weight: bold;  
-    margin: 3vw;
-    padding: 3vw;
-    border-radius: 10px;
-    }
-    section.aju1 h3{
-        color: black;
-        font-size:40px ;
-
-
-          background-color: rgb(128, 128, 255);
-    color: midnightblue; 
-    font-weight: bold;  
-    margin: 3vw;
-    padding: 3vw;
-    border-radius: 10px;
-    }
-
-
-
-
-
-    section.aju1 p {
-    background-color:#B8E1FB ;
-    color: rgb(10, 10, 50); 
-    font-weight: bold;  
-    margin: 3vw;
-    padding: 3vw;
-    border-radius: 10px;
-    }
-
-
-    section.aju1 div{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-    }
-    section.aju1 h3{
-     color: black;
-        font-size: 50px;
-        text-align: center;
-        margin: 2.5vw;
-        
-    }
 
 
 

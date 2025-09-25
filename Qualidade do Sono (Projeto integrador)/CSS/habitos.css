@@ -104,6 +104,8 @@ main .lista ol li a {
   transition: background-color 0.3s ease;
   padding: 5px;
   border-radius: 4px;
+  background-color: #1B5A81;
+  color: white;
 }
 
 main .lista ol li a:hover {
