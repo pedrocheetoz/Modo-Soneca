@@ -1,0 +1,109 @@
+
+html, body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: calc(12px + 0.8vw);
+    height: 100%;   
+    margin: 0;             
+    display: flex;         
+    flex-direction: column;
+}
+
+main {
+    flex: 1;               
+}
+
+footer {
+    
+    background-color: #1B5A81;
+   padding: 2vw 0 5vw 2vw;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* TOPO */
+
+header{
+    padding: 2vw 10vw 1vw 10vw;
+    background-color: #0036fd ;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+header nav h1 a{
+    font-size: 1.5rem;  
+    font-weight: bold;
+    color: black;
+}
+header nav ul{
+    display: flex;
+    margin: 0 10px 0 10px;
+}
+header nav ul li{
+    padding: 0 10px 0 10px;
+    font-size: 26px;
+}
+header nav:hover{
+    color: midnightblue;
+}
+header nav ul li ul li{
+    display: none;
+}
+
+header a {
+  background-color: transparent;
+  transition: background-color 0.5s ease;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+header a:hover {
+  background-color: midnightblue;
+  color: #00a7f5; 
+}
+header nav ul li a{
+    color: white;
+}
+
+
+
+/* Videos*/
+section.banvd h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+}
+section.banvd h2 {
+  background-color: transparent;
+  transition: background-color 0.5s ease;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+section.banvd h2 {
+  background-color: rgb(128, 128, 255);
+  color: midnightblue; 
+  font-weight: bold;
+  margin: 3vw;
+}
+section.banvd p{
+      display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+
+
+
+
+/* footer */
+footer {
+    padding: 2vw 0 5vw 2vw;
+    background-color: #1B5A81;
+}
