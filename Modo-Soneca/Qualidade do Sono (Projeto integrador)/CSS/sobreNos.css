@@ -133,6 +133,7 @@ section.nos h3 {
   
 }
 
+<<<<<<< HEAD
 /* footer */
 footer p{
   color: white;
@@ -141,3 +142,5 @@ footer {
     padding: 2vw 0 5vw 2vw;
     background-color:#0C1445;
 }
+=======
+>>>>>>> 81a7300 (Breakout)

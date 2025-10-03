@@ -102,6 +102,7 @@ section.banvd p{
 
 
 
+<<<<<<< HEAD
 /* footer */
 footer p{
     color: white;
@@ -111,5 +112,12 @@ footer a img{
 }
 footer {
     padding: 2vw 0 5vw 2vw;
+<<<<<<< HEAD
     background-color: #0C1445;
 }
+=======
+    background-color: midnightblue;
+}
+=======
+>>>>>>> 4509829 (Breakout)
+>>>>>>> 81a7300 (Breakout)

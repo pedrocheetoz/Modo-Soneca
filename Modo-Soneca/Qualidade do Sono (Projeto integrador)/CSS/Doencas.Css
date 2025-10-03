@@ -1,4 +1,3 @@
-
 html, body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: calc(12px + 0.8vw);
@@ -14,9 +13,11 @@ main {
 
 footer {
     
-    background-color: #1B5A81;
+    background-color: #0c1445;
    padding: 2vw 0 5vw 2vw;
+   color: white;
 }
+
 
 a{
     text-decoration: none;
@@ -27,7 +28,7 @@ a{
 
 header{
     padding: 2vw 10vw 1vw 10vw;
-    background-color: #0036fd ;
+    background-color: #020f3d ;
 }
 header nav{
     display: flex;
@@ -38,7 +39,6 @@ header nav h1 a{
     font-size: 1.5rem;  
     font-weight: bold;
     color: black;
-    
 }
 header nav ul{
     display: flex;
@@ -47,6 +47,7 @@ header nav ul{
 header nav ul li{
     padding: 0 10px 0 10px;
     font-size: 26px;
+    
 }
 header nav:hover{
     color: midnightblue;
@@ -65,7 +66,7 @@ header a:hover {
   background-color: midnightblue;
   color: #00a7f5; 
 }
-header nav ul li a{
+header nav ul li a {
     color: white;
 }
 
@@ -92,7 +93,7 @@ section.banner ul li {
     margin: 2vw 5vw 2vw 5vw;
     background:#03045E;
     padding: 3vw;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 section.banner ul li p{
     color: white;
@@ -102,11 +103,28 @@ section.banner ul li p{
 
 /* Puxando pra proxima página */
 section.insonia{
-    margin: 5vw 15vw 5vw 15vw;
+    margin: 2vw 10vw 2vw 10vw;
+
 }
+
 section.insonia p{
     background-color: #03045E;
     font-family: 'Times New Roman', Times, serif;
+    color: white;
+    padding: 2vw 1vw 2vw 1vw;
+    border-radius: 5px;
+}
+
+/* Avc */
+
+section.avc{
+    margin: 2vw 10vw 2vw 10vw;
+}
+section.avc a{
+    background: #0036fd;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
     
 }
 
