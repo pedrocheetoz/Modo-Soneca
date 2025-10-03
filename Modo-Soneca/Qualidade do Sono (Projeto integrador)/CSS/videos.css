@@ -27,7 +27,7 @@ a{
 
 header{
     padding: 2vw 10vw 1vw 10vw;
-    background-color: #0036fd ;
+    background-color: #0036fd;
 }
 header nav{
     display: flex;
@@ -103,7 +103,13 @@ section.banvd p{
 
 
 /* footer */
+footer p{
+    color: white;
+}
+footer a img{
+    
+}
 footer {
     padding: 2vw 0 5vw 2vw;
-    background-color: #1B5A81;
+    background-color: midnightblue;
 }
