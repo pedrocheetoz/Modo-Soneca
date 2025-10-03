@@ -12,12 +12,6 @@ main {
     flex: 1;               
 }
 
-footer {
-    
-    background-color: #1B5A81;
-   padding: 2vw 0 5vw 2vw;
-}
-
 a{
     text-decoration: none;
     color: black;
@@ -27,7 +21,7 @@ a{
 
 header{
     padding: 2vw 10vw 1vw 10vw;
-    background-color: #0036fd ;
+    background-color: #020F3D
 }
 header nav{
     display: flex;
@@ -127,10 +121,23 @@ section.nos h3 {
   border-radius: 10px;
   padding: 5vw;
 }
-
+.redesSociais h1{
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+.redesSociais div {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2vw 0 4vw;
+  
+}
 
 /* footer */
+footer p{
+  color: white;
+}
 footer {
     padding: 2vw 0 5vw 2vw;
-    background-color: #1B5A81;
+    background-color:#0C1445;
 }
